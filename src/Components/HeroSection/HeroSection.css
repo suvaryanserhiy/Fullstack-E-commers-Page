@@ -1,0 +1,19 @@
+/* HeroSection.css */
+.hero-section {
+	position: relative;
+	width: 100%;
+	height: 100vh; /* Full viewport height */
+	overflow: hidden; /* Prevents scrolling if needed */
+}
+
+.hero-section video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	transform: translate(-50%, -50%); /* Center the video */
+	z-index: -1; /* Places the video behind other content */
+}
